@@ -56,7 +56,7 @@ function App() {
     return () => {
       document.removeEventListener("keypress", handler)
     }
-  }, [])
+  }, [addGuessedLetter])
 
   return (
     <div style={{
